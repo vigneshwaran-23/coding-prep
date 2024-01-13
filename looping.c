@@ -20,13 +20,7 @@ int main()
         k++;
     } while (k<=7);
     printf("---------------\n");
-    
-
-
-    
-    
-
-
+    return 0;
 }
 
 
