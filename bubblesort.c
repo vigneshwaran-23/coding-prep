@@ -4,7 +4,7 @@ void bubbleSort(int arr[], int n) {
     for (int i = 0; i < n-1; i++) {
         for (int j = 0; j < n-i-1; j++) {
             if (arr[j] > arr[j+1]) {
-                // Swap the elements without using a separate function
+               
                 int temp = arr[j];
                 arr[j] = arr[j+1];
                 arr[j+1] = temp;
@@ -22,13 +22,13 @@ void printArray(int arr[], int size) {
 int main() {
     int n;
 
-    // Get user input for the number of elements
+    
     printf("Enter the number of elements: ");
     scanf("%d", &n);
 
     int arr[n];
 
-    // Get user input for array elements
+    
     printf("Enter %d elements:\n", n);
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
