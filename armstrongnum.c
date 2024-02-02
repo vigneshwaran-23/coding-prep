@@ -8,7 +8,7 @@ int main()
  while (original_num != 0){
  remainder= original_num % 10;
  result += remainder * remainder * remainder;
- original_number /= 10
+ original_num /= 10;
  }
  if(result==num)
     printf("%d is an Armstrong number", num);
